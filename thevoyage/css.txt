@@ -1,0 +1,225 @@
+ 
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    .dropdown-menu {
+      position: absolute;
+      will-change: transform;
+    }
+    .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand {
+      color: #FFECB3; /* Applied font color to nav links and brand */
+    }
+    .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-brand:hover{
+      color: #FFF; /* on hover, go to white*/
+    }
+    .destination-item{
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+
+    }
+    .destination-item:hover{
+      transform: translateY(-5px); /* Move card slightly up on hover */
+
+    }
+    #h3{
+      color: rgba(211, 211, 211, 0.663);
+      font-weight:600;
+    }
+    body {
+      .card{
+        border-radius: 20px;
+        border-color: white;
+        margin: 10px;
+        -webkit-box-shadow: 12px 14px 16px -7px rgba(247,237,237,0.72);
+-moz-box-shadow: 12px 14px 16px -7px rgba(247,237,237,0.72);
+box-shadow: 12px 14px 16px -7px rgba(247,237,237,0.72);
+margin-bottom: 10px;
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+
+      }
+      .destinations-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .destinations-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .destinations-subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .destination-item {
+            display: inline-block;
+            width: 30%;
+            margin: 0 10px;
+            text-align: center;
+        }
+        .destination-item img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .destination-item h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 10px;
+        }
+        .orange-highlight {
+            background-color: #fd7e14;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .divider {
+            width: 50px;
+            height: 2px;
+            background-color: #333;
+            margin: 10px auto 20px;
+        }
+        @media (max-width: 768px) {
+            .destination-item {
+                width: 90%;
+                margin: 20px 0;
+            }
+        }
+            font-family: sans-serif;
+            background-color: #f8f9fa; /* Light background */
+        }
+        .services-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .services-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #343a40; /* Dark text */
+        }
+        .services-subtitle {
+            font-size: 1.2em;
+            color: #6c757d; /* Gray text */
+            margin-bottom: 40px;
+        }
+        .service-item {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+        .service-item img {
+            max-width: 80px;
+            margin-bottom: 15px;
+        }
+        .service-item h3 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+        .service-item p {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .orange-bar {
+            background-color: #fd7e14; /* Orange color */
+            height: 5px;
+            width: 100px;
+            margin: 10px auto 20px;
+        }
+       #h2{
+        color: rgba(0, 0, 0, 0.555);
+        font-weight:700;
+       }
+       .card:hover {
+            transform: translateY(-5px); /* Move card slightly up on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+        }
+        .whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.whatsapp-icon {
+  width: 24px; /* Adjust as needed */
+  height: 24px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.button-text {
+  font-weight: bold;
+}
+.footer {
+            background-color: #003366; /* Dark blue background */
+            color: white;
+            padding: 40px 20px;
+            font-family: sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            width: 20%;
+            min-width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h3 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .footer-section p, .footer-section ul {
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 25px; /* Adjust size as needed */
+            height: 25px; /* Adjust size as needed */
+        }
